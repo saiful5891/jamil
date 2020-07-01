@@ -1,0 +1,239 @@
+*{margin: 0;padding: 0; outline: 0;}
+body{
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    background: #8c8c8c;
+}
+
+.templet{width: 1024px;margin: 0 auto;}
+.clear{overflow: hidden;}
+
+
+.positionfix{position: fixed;}
+.login{
+    /* position: fixed; */
+    height: 30px;
+    background: #2E251E;
+}
+.loginleft {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    margin-left: 100px;
+}
+.loginleft ul{
+    list-style: none;
+}
+.loginleft ul li{
+    display: inline-block;
+    margin-top: 5px;
+}
+.loginleft ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+.loginleft ul li a: :hover{}
+/* .loginleft ul li a:first-child{
+    padding-right:none;
+} */
+
+.loginright {
+    float: right;
+    width: 270px;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+.loginright input[type="search"] {
+    width: 250px;
+}
+.loginright i{
+    color: white;
+}
+.menu{
+    /* position: fixed; */
+    height: 60px;
+    background: white;
+}
+.menuleft{
+    float: left;
+    margin-left: 100px;
+    width: 200px;
+}
+.menuleft i{
+    margin-top: 15px;
+}
+.fa-color{color:#2E251E;}
+.menuright {
+    float: right;
+    width: 695px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+.menuright ul{
+    margin-right: 100px;
+}
+.menuright ul li{
+    display: inline-block;
+}
+.menuright ul li a {
+    text-decoration: none;
+    padding: 0 0px 0 25px;
+    color:#2E251E;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menuright ul li a:hover{}
+
+.slidshow{
+    height: 420px;
+    background: url(/img/cover\ photo.jpg);
+}
+.sado{
+    height: 40px;
+    background: #2E251E;
+    position: relative;
+    top: 87%;
+    opacity: 50%    
+}
+.sado p{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    opacity: 70%;
+    /* z-index: 1; */
+    /* transform: translate(-50%,-50%); */
+}
+.icon{
+    height: 120px;
+    background: #77A13B;
+}
+.iconlist{
+    text-align: center;
+    margin-top: 20px;
+}
+.iconlist a{padding: 0 75px;}
+.vitamin{
+    text-align: center;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.vitamin ul{}
+.vitamin ul li{display: inline;}
+.vitamin ul li a{
+    text-decoration: none;
+    padding: 0 50px;
+    color: white;
+}
+.vitamin ul li a:hover{}
+
+.product {
+    width: 1024px;
+    height: auto;
+    background: white;
+    color: black;
+    display: inline-block;
+}
+.productbody {
+    float: left;
+    width: 449px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.productbody a{}
+.productbody a img {
+    color: #8C8C8C;
+    box-shadow: 8px 9px 10px 5px;
+}
+.productbody h2{
+    margin-left: 30px;
+}
+.productbody h3{
+    float: right;
+    color: #77A13B;
+    font-weight: bold;
+}
+.productbody h4{
+    float: left;
+    margin-left: 30px;
+}
+.margin p{
+    text-align: center;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.margin input{
+  float: left;
+  padding: 5px 10px;
+}
+.margin input[type="button"] {
+    
+}
+.productbody input[type="button"]:hover{}
+
+
+
+.footer{
+    height: 200px;
+    background: url(../img/footer.jpg);
+    text-align: center;
+}
+.opasity{
+    height: 200px;
+    background: #2E251E;
+    opacity: 80%;
+}
+.iconfot a i{}
+.iconfot .fa-color{
+    color:white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.footer a i{}
+.footmenu{}
+.footmenu ul{}
+.footmenu ul li{
+    display: inline-block;
+    margin-top: 10px;  
+}
+.footmenu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.footmenu ul li a:hover{}
+.footsocilicon{}
+.footsocilicon .fa-color{
+    color:white;
+    margin-top: 20px;
+    padding: 0 40px;
+}
+.copy{
+    height: 30px;
+    background: #2E251E;
+    text-align: center;
+}
+.copy p{
+    margin-top: 5PX;
+    color: rgb(148, 146, 145);
+}
+.copy p samp a{
+    color: rgb(98, 133, 49);
+    font-weight: bold;
+    font-size: 16px;
+}

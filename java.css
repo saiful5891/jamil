@@ -1,0 +1,93 @@
+.to-do .intro {
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+.to-do h1 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.to-do p {
+    font-weight: 600;
+}
+
+.to-do #enter {
+    border: none;
+    padding: 18px 15px;
+    color: white;
+    font-size: 20px;
+    background-color: gray;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75 ease;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.to-do ul {
+    text-align: left;
+    margin-top: 20px;
+    width: 50%;
+    padding: 0;
+}
+
+.to-do li {
+    list-style: none;
+    padding: 10px 20px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: gainsboro;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5 ease;
+}
+
+.to-do .listItems ul {
+    
+    height: 100px;
+
+}
+
+.to-do li>button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.to-do input {
+    border-radius: 5px;
+    min-width: 65%;
+    padding: 5px;
+    border: none;
+    background: ghostwhite;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+.to-do-tasks {
+    display: flex;
+    justify-content: center;
+}
+
+.to-do .done {
+    background: #51DF70 !important;
+    color: #00891E;
+}
+
+.to-do .delete {
+    display: none;
+}
